@@ -17,18 +17,20 @@
     "url": "git+https://github.com/apollostack/eslint-plugin-graphql.git"
   },
   "devDependencies": {
-    "@babel/cli": "7.10.1",
-    "@babel/core": "7.10.1",
-    "@babel/node": "7.10.1",
-    "@babel/plugin-transform-runtime": "7.10.1",
-    "@babel/preset-env": "7.10.1",
-    "@babel/register": "7.10.1",
-    "babel-eslint": "10.1.0",
-    "eslint": "6.8.0",
-    "graphql": "15.0.0",
-    "mocha": "7.2.0",
-    "pretty-quick": "2.0.1",
-    "test-all-versions": "4.1.1"
+    "@babel/cli": "7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/eslint-parser": "^7.14.7",
+    "@babel/node": "7.14.7",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/plugin-transform-runtime": "7.14.5",
+    "@babel/preset-env": "7.14.8",
+    "@babel/register": "7.14.5",
+    "eslint": "^7.31.0",
+    "graphql": "15.5.1",
+    "mocha": "9.0.3",
+    "pretty-quick": "3.1.1",
+    "test-all-versions": "5.0.1"
   },
   "husky": {
     "hooks": {
@@ -41,8 +43,8 @@
   "browserslist": "node 10",
   "license": "MIT",
   "dependencies": {
-    "@babel/runtime": "^7.10.0",
-    "graphql-config": "^3.0.2",
+    "@babel/runtime": "^7.14.8",
+    "graphql-config": "^3.4.0",
     "lodash.flatten": "^4.4.0",
     "lodash.without": "^4.4.0"
   },

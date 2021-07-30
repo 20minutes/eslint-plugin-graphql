@@ -3,7 +3,7 @@ import schemaJson from "../schema.json";
 
 import { ruleTester } from "../helpers";
 
-const parser = require.resolve('babel-eslint');
+const parser = require.resolve('@babel/eslint-parser');
 
 const options = [
   {
