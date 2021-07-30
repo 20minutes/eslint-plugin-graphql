@@ -1,6 +1,6 @@
 {
   "name": "@20minutes/eslint-plugin-graphql",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "GraphQL ESLint plugin.",
   "author": "Sashko Stubailo",
   "main": "lib/index.js",
@@ -42,5 +42,12 @@
   },
   "peerDependencies": {
     "graphql": "^15.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/20minutes/eslint-plugin-graphql/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
