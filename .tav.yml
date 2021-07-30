@@ -1,4 +1,0 @@
-
-graphql:
-  versions: ^14.2.0 || ^15.0.0
-  commands: mocha test/index.js

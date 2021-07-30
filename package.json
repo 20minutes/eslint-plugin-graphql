@@ -5,10 +5,9 @@
   "author": "Sashko Stubailo",
   "main": "lib/index.js",
   "scripts": {
-    "test": "tav --ci && mocha test/index.js",
+    "test": "mocha test/index.js",
     "prepare": "babel ./src --ignore test --out-dir ./lib",
     "pretest": "babel-node test/updateSchemaJson.js",
-    "tav": "tav",
     "lint": "eslint 'src/**/*.js' 'test/**/*.js'"
   },
   "homepage": "https://github.com/apollostack/eslint-plugin-graphql",
@@ -29,8 +28,7 @@
     "eslint": "^7.31.0",
     "graphql": "15.5.1",
     "mocha": "9.0.3",
-    "pretty-quick": "3.1.1",
-    "test-all-versions": "5.0.1"
+    "pretty-quick": "3.1.1"
   },
   "husky": {
     "hooks": {
