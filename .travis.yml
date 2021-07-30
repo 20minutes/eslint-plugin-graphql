@@ -1,12 +1,20 @@
+os: linux
+arch: arm64-graviton2
+virt: lxd
+group: edge
+dist: focal
 language: node_js
+
+cache:
+  yarn: true
+
 node_js:
-  - "10"
   - "12"
+  - "14"
+
 install:
-  - npm install
+  - yarn install
 
 script:
-  - npm run lint && npm test
-
-# Allow Travis tests to run in containers.
-sudo: false
+  - yarn lint
+  - yarn test
