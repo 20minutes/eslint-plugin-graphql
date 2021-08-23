@@ -1,13 +1,15 @@
 # @20minutes/eslint-plugin-graphql
-[![Build Status](https://travis-ci.org/20minutes/eslint-plugin-graphql.svg?branch=deps-up-to-date)](https://travis-ci.org/20minutes/eslint-plugin-graphql)
+[![Build Status](https://app.travis-ci.com/20minutes/eslint-plugin-graphql.svg?branch=deps-up-to-date)](https://app.travis-ci.com/20minutes/eslint-plugin-graphql)
 
 An ESLint plugin that checks tagged query strings inside JavaScript, or queries inside `.graphql` files, against a GraphQL schema.
+
+This is exactly the same plugin as [`eslint-plugin-graphql`](https://github.com/apollostack/eslint-plugin-graphql) but with dependencies up to date.
 
 ```
 yarn add --dev @20minutes/eslint-plugin-graphql
 ```
 
-This is exactly the same plugin as [`eslint-plugin-graphql`](https://github.com/apollostack/eslint-plugin-graphql) with a few exceptions (as of July 2021):
+Requirements:
 - requires Node 12+
 - requires GraphQL 15+
 
