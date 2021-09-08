@@ -1,6 +1,6 @@
 {
   "name": "@20minutes/eslint-plugin-graphql",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "GraphQL ESLint plugin.",
   "author": "Sashko Stubailo",
   "main": "lib/index.js",
