@@ -1,8 +1,10 @@
 # Change log
 
-### vNEXT
+### v5.0.0
 
-- _Nothing yet!_
+- Drop Node.js 10
+- Drop GraphQL < 15
+- Updated deps
 
 ### v4.0.0
 

@@ -4,6 +4,3 @@ test
 .github
 .babelrc.js
 .eslintrc.js
-.travis.yml
-renovate.json
-screenshot.png

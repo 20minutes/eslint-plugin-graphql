@@ -1,5 +1,5 @@
 # @20minutes/eslint-plugin-graphql
-[![Build Status](https://app.travis-ci.com/20minutes/eslint-plugin-graphql.svg?branch=deps-up-to-date)](https://app.travis-ci.com/20minutes/eslint-plugin-graphql)
+[![Node CI](https://github.com/20minutes/eslint-plugin-graphql/actions/workflows/nodejs.yml/badge.svg)](https://github.com/20minutes/eslint-plugin-graphql/actions/workflows/nodejs.yml)
 
 An ESLint plugin that checks tagged query strings inside JavaScript, or queries inside `.graphql` files, against a GraphQL schema.
 
