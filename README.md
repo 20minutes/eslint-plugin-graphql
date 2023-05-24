@@ -1,6 +1,12 @@
 # @20minutes/eslint-plugin-graphql
 [![Node CI](https://github.com/20minutes/eslint-plugin-graphql/actions/workflows/nodejs.yml/badge.svg)](https://github.com/20minutes/eslint-plugin-graphql/actions/workflows/nodejs.yml)
 
+----
+
+⚠️ **That plugin is deprecated** and won't receive further updates. It's not compatible with GraphQL > 15 so you should use [`@graphql-eslint/eslint-plugin`](https://www.npmjs.com/package/@graphql-eslint/eslint-plugin) instead.
+
+----
+
 An ESLint plugin that checks tagged query strings inside JavaScript, or queries inside `.graphql` files, against a GraphQL schema.
 
 This is exactly the same plugin as [`eslint-plugin-graphql`](https://github.com/apollostack/eslint-plugin-graphql) but with dependencies up to date.
